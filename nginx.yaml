@@ -1,5 +1,7 @@
-- name: insstall nginx
+- name: install nginx
   hosts: frontend
+  become: yes
+  become_method: sudo
   tasks:
     - name: install nginx
       ansible.builtin.package:
