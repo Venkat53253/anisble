@@ -70,7 +70,7 @@
   #   community.mysql.mysql_info:
   #     login_user: shipping
   #     login_password: RoboShop@1
-  #     login_host: mysql.venaws.site
+  #     login_host: mysql.venaws.in
   #     login_db: cities
 
   - name: import data
@@ -80,7 +80,7 @@
       name: all
       login_user: root
       login_password: RoboShop@1
-      login_host: mysql.venaws.site
+      login_host: mysql.venaws.in
       state: import
       target: "{{ item }}"
     loop:

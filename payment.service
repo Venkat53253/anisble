@@ -6,11 +6,11 @@ Description=Payment Service
 User=root
 WorkingDirectory=/app
 // highlight-start
-Environment=CART_HOST=cart.venaws.site
+Environment=CART_HOST=cart.venaws.in
 Environment=CART_PORT=8080
-Environment=USER_HOST=user.venaws.site
+Environment=USER_HOST=user.venaws.in
 Environment=USER_PORT=8080
-Environment=AMQP_HOST=rabbitmq.venaws.site
+Environment=AMQP_HOST=rabbitmq.venaws.in
 // highlight-end
 Environment=AMQP_USER=roboshop
 Environment=AMQP_PASS=roboshop123
